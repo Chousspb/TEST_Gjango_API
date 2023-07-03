@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expired Token</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>Expired Token</h1>
+    <div class="error-message">
+        <p>Ваш токен просрочен!</p>
+        <p>Пожалуйста, получите новый</p>
+    </div>
+    <a href="http://127.0.0.1:8000/" class="button">Перейти на страницу входа</a>
+</body>
+</html>

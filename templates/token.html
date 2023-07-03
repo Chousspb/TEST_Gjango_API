@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Token Page</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body>
+    <h1>Ваш токен:</h1>
+    <p>{{ token }}</p>
+    <a href="/salary?token={{ token }}">Данные о зарплате</a>
+</body>
+</html>

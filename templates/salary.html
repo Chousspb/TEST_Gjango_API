@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salary Page</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body>
+    <h1>Зарплата:</h1>
+    <p>{{ salary }}</p>
+    <h1>Дата следующего повышения:</h1>
+    <p>{{ next_raise }}</p>
+    <a href="http://127.0.0.1:8000/" class="button">Перейти на страницу входа</a>
+</body>
+</html>

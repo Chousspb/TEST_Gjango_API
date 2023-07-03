@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.error-message {
+    background-color: #ffdddd;
+    border: 1px solid #ff9999;
+    padding: 10px;
+    color: #cc0000;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+a.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+
